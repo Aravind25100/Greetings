@@ -1,0 +1,5 @@
+st = input()
+ecnt = st[1:len(st)-1]
+if(ecnt == len(ecnt) * 'e'):
+  e_length = len(ecnt)
+  print(st[0]+(ecnt*2)+st[-1])
